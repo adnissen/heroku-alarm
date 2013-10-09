@@ -9,6 +9,10 @@ app.get('/', function(request, response) {
 var request = require('request');
 
 var urls = [];
+
+//just replace these urls with whatever ones you want
+//the first one needs to be the url to the bot itself
+//also, don't use it to use heroku to dos things. that is bad.
 urls.push("http://wakeup-bot.herokuapp.com/");
 urls.push("http://tinkerbot.herokuapp.com/");
 
